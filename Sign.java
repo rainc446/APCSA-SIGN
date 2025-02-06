@@ -12,10 +12,18 @@ public class Sign {
         else return lines + 1;
     }
     public String getLines(){
+        int endLine;
+        String newString;
         if (message.length() == 0){
             return null;
         }
         else {
+            for(int i = 0; i < numberOfLines(); i++) {
+                for(int newLine = ){
+
+                }
+                endLine +=
+            }
 
             return newString;
         }
